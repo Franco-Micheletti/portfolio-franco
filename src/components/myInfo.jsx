@@ -55,16 +55,6 @@ export const Myinfo = () => {
                                 <div className="justify-start gap-3 ml-9 flex w-full">Frontend: <div className="font-medium">Javascript</div> </div> 
                                 <div className="justify-start gap-4 ml-9 flex w-full">Backend:  <div className="font-medium">Python</div>     </div>
                             </div>
-                            <div style={{minWidth:"320px",maxWidth:"320px"}} className="pl-6 flex flex-col justify-center">
-                                <div className="mt-40 gap-4 fixed bottom-0 mb-5">
-                                    <div className="flex min-w-max mb-2">
-                                        Epic Music
-                                    </div>
-                                    <audio controls className="w-64">
-                                        <source src="/audio/audio.mp3" type="audio/mpeg"/>
-                                    </audio>
-                                </div>
-                            </div>
                         </div>
 
                     :   <div style={{backgroundColor:"#E7E7E7"}} className="relative min-h-full items-center shadow-2xl justity-center gap-1 flex flex-col font-bold font-sans text-center text-1xl w-11 h-screen overflow-hidden">
