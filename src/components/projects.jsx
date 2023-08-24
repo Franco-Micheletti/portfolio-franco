@@ -72,11 +72,19 @@ export const Projects = () => {
                             </div>
                         </div>
                         {showWeather
-                            ?   <div className="flex gap-5">
-                                    <div className="w-36 h-36 bg-slate-200 rounded-sm"></div>
-                                    <div className="w-36 h-36 bg-slate-200 rounded-sm"></div>
-                                    <div className="w-36 h-36 bg-slate-200 rounded-sm"></div>
-                                    <div className="w-36 h-36 bg-slate-200 rounded-sm"></div>
+                            ?   <div>
+                                    <div className="project-links flex justify-evenly p-6">
+                                        <a href="https://github.com/Franco-Micheletti/international-weather-app/tree/main/weather-app" style={{color:"#27374D"}} className="hover:border-gray-400 border-2 bg-white select-none cursor-pointer w-52 h-12 rounded-md justify-center flex items-center text-md font-medium">
+                                            See Code in Github
+                                        </a>
+                                        <a href="https://international-weather-app.vercel.app/" style={{color:"#27374D"}} className="hover:border-gray-400 border-2 bg-white select-none cursor-pointer w-52 h-12 rounded-md justify-center flex items-center text-md font-medium  ">
+                                            Website
+                                        </a>
+                                    </div>
+                                    <div ref={ecommerceImages} style={{transition: "all 0.1s cubic-bezier(0.4, 0, 1, 1) 0s",marginTop: "-10px"}} className="mb-5 p-7 flex flex-wrap gap-5 overflow-hidden justify-center rounded-3xl">
+                                        <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather1.webp" className="ease-in duration-75 project-image rounded-xl"></img>
+                                        <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather2.webp" className="ease-in duration-75 project-image rounded-xl"></img>
+                                    </div>
                                 </div>
                             :   <></>
                         }
