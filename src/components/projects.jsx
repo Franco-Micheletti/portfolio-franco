@@ -84,6 +84,8 @@ export const Projects = () => {
                                     <div ref={ecommerceImages} style={{transition: "all 0.1s cubic-bezier(0.4, 0, 1, 1) 0s",marginTop: "-10px"}} className="mb-5 p-7 flex flex-wrap gap-5 overflow-hidden justify-center rounded-3xl">
                                         <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather1.webp" className="ease-in duration-75 project-image rounded-xl"></img>
                                         <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather2.webp" className="ease-in duration-75 project-image rounded-xl"></img>
+                                        <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather3.webp" className="ease-in duration-75 project-image rounded-xl"></img>
+                                        <img style={{boxShadow:"rgb(133 130 130) 0px 3px 9px -3px"}} width={300} height={175} src="./images/weather4.webp" className="ease-in duration-75 project-image rounded-xl"></img>
                                     </div>
                                 </div>
                             :   <></>
