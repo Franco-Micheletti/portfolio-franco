@@ -38,7 +38,7 @@ export const Myinfo = () => {
                                 </div>
                             </div>
                             <div style={{minWidth:"320px",maxWidth:"320px"}} className="min-w-max max-w-full min-h-max flex rounded-full w-auto h-auto border-0 justify-center">
-                                <img className="rounded-3xl shadow-sm shadow-gray-500" width={189} height={297} src={`./images/2.webp`} alt="My photo"></img>
+                                <img className="rounded-3xl shadow-sm shadow-gray-500" width={140} height={220} src={`./images/2.webp`} alt="My photo"></img>
                             </div>
                             <div className="mt-6 flex-col w-64 pl-6 font-medium flex flex-wrap justify-start gap-3">
                                 <div className="flex flex-col gap-3 mb-6">
