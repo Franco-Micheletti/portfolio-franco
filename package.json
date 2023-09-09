@@ -1,17 +1,4 @@
 {
-  "name": "portfolio-franco",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.2",
-    "vite": "^4.3.2"
-  },
   "dependencies": {
     "@vitejs/plugin-react": "4.0.0",
     "autoprefixer": "^10.4.14",
@@ -19,7 +6,20 @@
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.2"
+  },
   "eslintConfig": {
     "extends": ".node_modules/standard/eslintrc.json"
-  }
+  },
+  "name": "portfolio-franco",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.0.0"
 }
