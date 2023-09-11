@@ -19,7 +19,7 @@ export const Projects = () => {
     return (
         <div className="w-full">
             <div className="animationbg w-auto min-h-screen">
-                <div className="bg-slate-950/30 min-h-screen justify-center flex flex-col">
+                <div className="bg-slate-950/30 min-h-screen justify-center flex flex-col items-center">
                     <div className="text-8xl text-center text-sky-900 font-semibold p-5 mt-40">PROJECTS</div>
                     <div className="flex flex-col mt-10">
                         <div className="text-8xl text-slate-500 font-semibold flex">Frontend</div>
