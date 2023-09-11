@@ -7,8 +7,8 @@ export const Myinfo = () => {
     return (
         <div>
             {/* Black Mask */}
-            <div className="absolute z-1 w-full"></div>
-            <div style={{boxShadow:"rgb(185 185 185) 6px 0px 19px -3px",minWidth:"384px"}} className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black/95 h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-96 overflow-hidden`}>
+            <div className={`${showInfo?"visible":"hidden"} absolute z-1 w-full bg-black/50 flex h-full`}></div>
+            <div style={{boxShadow:"rgb(100 100 100) 6px 0px 19px -3px",minWidth:"384px"}} className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-96 overflow-auto`}>
                 <div className="w-full flex gap-5 mb-5 mt-5 justify-end pr-4">
                     <div onClick={() => setShowInfo(false)} className=" hover:bg-slate-500 rounded-md cursor-pointer p-1.5 border-gray-500 border-2"> 
                         <svg height={20} width={20} fill="white" viewBox="0 0 1920 1920"><g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g><g> <path d="M114.063 276v1368.756H0V276h114.063Zm739.106 73.765 80.642 80.642-473.02 473.02H1920v113.948H460.792l473.02 473.02-80.643 80.642-610.694-610.693 610.694-610.58Z" fill-rule="evenodd"></path> </g></svg>
