@@ -19,7 +19,7 @@ export const Projects = () => {
     return (
         <div className="w-full">
             <div className="animationbg w-auto min-h-screen">
-                <div className="bg-slate-950/30 min-h-screen">
+                <div className="bg-slate-950/30 min-h-screen justify-center flex flex-col items-center">
                     <div className="text-8xl text-center text-sky-900 font-semibold p-5">MY PROJECTS</div>
                     <div className="inline-flex justify-center align-baseline w-full mt-20 gap-5">
                         {/* E commerce */}
