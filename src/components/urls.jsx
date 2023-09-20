@@ -1,7 +1,7 @@
 export const Urls = ({githubUrl,websiteUrl}) => {
 
     return (
-        <div className="font-bold text-black bg-gray-600 flex flex-col h-20 justify-center items-center text-lg w-80">
+        <div className="font-bold text-black bg-gray-600 flex flex-col h-20 justify-center items-center text-lg w-full">
             <div className="project-links flex justify-evenly p-1 gap-3">
                 {
                     githubUrl 
