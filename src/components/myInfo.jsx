@@ -14,7 +14,7 @@ export const Myinfo = () => {
             {/* Black Mask */}
             <div onMouseDown={() => handleHideInfo()}  className={`${showInfo?"visible":"hidden"} absolute z-1 w-full bg-black/50 flex h-full`}></div>
             {/* My Info */}
-            <div className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-80 overflow-auto`}>
+            <div className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-80 overflow-y-auto`}>
                 <div className="w-full flex gap-5 mb-5 mt-5 justify-end pr-4">
                     <div onClick={() => handleShowInfo()} className="hover:bg-gray-200 hover:fill-black fill-white rounded-md cursor-pointer p-1.5 border-gray-500 border-2"> 
                         <svg height={20} width={20} viewBox="0 0 1920 1920"><g><path d="M114.063 276v1368.756H0V276h114.063Zm739.106 73.765 80.642 80.642-473.02 473.02H1920v113.948H460.792l473.02 473.02-80.643 80.642-610.694-610.693 610.694-610.58Z" fillRule="evenodd"></path> </g></svg>
