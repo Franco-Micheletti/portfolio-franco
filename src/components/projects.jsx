@@ -18,7 +18,7 @@ export const Projects = () => {
     return (
         <div className="w-full">
             <div className="bg-white w-auto min-h-screen">
-                <div className="bg-slate-950/30 min-h-screen justify-center flex flex-col items-center">
+                <div style={{backgroundColor: "rgb(102, 102, 105, 0.30)"}} className="min-h-screen justify-center flex flex-col items-center">
                     <div className="projects-title text-8xl text-center text-sky-900 font-semibold p-5 mt-40">PROJECTS</div>
                     <div className="flex flex-col mt-10">
                         <div className="project-type-title text-8xl text-slate-500 font-semibold flex">Frontend</div>
@@ -38,7 +38,7 @@ export const Projects = () => {
                         <div className="project-type-title text-8xl text-slate-500 font-semibold flex">Backend</div>
                         <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E commerce */}
-                            <Project projectName={"E-commerce Website"} 
+                            <Project projectName={"Vehicles API"} 
                                     projectImage={"./images/e-commerce-3.webp"} 
                                     githubUrl={"https://github.com/Franco-Micheletti/ecommerce-frontend"}/>
                             {/* International Weather App*/}
