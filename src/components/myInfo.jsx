@@ -14,14 +14,14 @@ export const Myinfo = () => {
             {/* Black Mask */}
             <div onMouseDown={() => handleHideInfo()}  className={`${showInfo?"visible":"hidden"} absolute z-1 w-full bg-black/50 flex h-full`}></div>
             {/* My Info */}
-            <div className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-80 overflow-y-auto`}>
-                <div className="w-full flex gap-5 mb-5 mt-5 justify-end pr-4">
+            <div className={`${showInfo?"my-info-visible":"my-info-hidden"} z-50 text-lg text-white bg-black h-screen absolute min-h-full max-h-full justity-center items-center flex flex-col font-bold font-sans text-center text-1xl w-80 overflow-auto`}>
+                <div className="w-full flex gap-5 mb-3 mt-3 justify-end pr-4">
                     <div onClick={() => handleShowInfo()} className="hover:bg-gray-200 hover:fill-black fill-white rounded-md cursor-pointer p-1.5 border-gray-500 border-2"> 
                         <svg height={20} width={20} viewBox="0 0 1920 1920"><g><path d="M114.063 276v1368.756H0V276h114.063Zm739.106 73.765 80.642 80.642-473.02 473.02H1920v113.948H460.792l473.02 473.02-80.643 80.642-610.694-610.693 610.694-610.58Z" fillRule="evenodd"></path> </g></svg>
                     </div>
                 </div>
-                <div className="min-w-max w-full p-4 font-medium bg-sky-900 text-2xl text-start text-white rounded-md mt-10">About Me</div>
-                <div className="gap-1 w-full flex rounded-full border-0 justify-center items-center mt-4 mb-4">
+                <div className="min-w-max w-full p-4 font-medium bg-sky-900 text-2xl text-start text-white">About Me</div>
+                <div className="gap-1 w-full flex rounded-full border-0 justify-center items-center">
                     <div className="min-w-max min-h-max z-10 flex flex-col text-start gap-3">
                         <div className="min-w-max gap-3 flex flex-col">
                             <div className="min-w-max font-medium text-base">Franco Micheletti</div>
@@ -34,7 +34,7 @@ export const Myinfo = () => {
                     </div>
                     <div className="z-10"><img className="shadow-sm rounded-3xl p-3" width={127} height={200} src={`./images/2.webp`} alt="My photo"></img></div>
                 </div>
-                <div className="min-w-max w-full p-4 font-medium bg-sky-900 text-2xl text-start text-white rounded-md">Programming Languages</div>
+                <div className="min-w-max w-full p-4 font-medium bg-sky-900 text-2xl text-start text-white">Programming Languages</div>
                 <div className="min-w-max flex flex-col gap-2 p-6 bg-black/70 w-full">
                     <div className="min-w-max justify-start gap-5 flex w-full items-center">
                         <div className="bg-white rounded-md w-16 h-16 justify-center flex items-center">
