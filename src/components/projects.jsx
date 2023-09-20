@@ -1,29 +1,28 @@
-import React,{useEffect, useState,useContext } from "react";
+import React,{useEffect,useContext } from "react";
 import '../css/animation.css'
-import '../css/projects.css'
 import { Urls } from "./urls";
 import { Project } from "./project";
 import { MyInfoContext } from "../context/myInfoContext";
 export const Projects = () => {
 
-    const {showInfo, setShowInfo}  = useContext(MyInfoContext)
+    const {showInfo, handleShowInfo}  = useContext(MyInfoContext)
 
     useEffect(() => {
 
         setTimeout(()=>{
-            setShowInfo(true)
-        },1500)
-        
+            handleShowInfo()
+        },1200)
+
     }, [])
 
     return (
         <div className="w-full">
-            <div className="animationbg w-auto min-h-screen">
+            <div className="bg-white w-auto min-h-screen">
                 <div className="bg-slate-950/30 min-h-screen justify-center flex flex-col items-center">
-                    <div className="text-8xl text-center text-sky-900 font-semibold p-5 mt-40">PROJECTS</div>
+                    <div className="projects-title text-8xl text-center text-sky-900 font-semibold p-5 mt-40">PROJECTS</div>
                     <div className="flex flex-col mt-10">
-                        <div className="text-8xl text-slate-500 font-semibold flex">Frontend</div>
-                        <div className="inline-flex align-baseline mt-20 gap-5">
+                        <div className="project-type-title text-8xl text-slate-500 font-semibold flex">Frontend</div>
+                        <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E commerce */}
                             <Project projectName={"E-commerce Website"} 
                                     projectImage={"./images/e-commerce-3.webp"} 
@@ -36,8 +35,8 @@ export const Projects = () => {
                         </div>
                     </div>
                     <div className="flex flex-col mt-10 mb-10">
-                        <div className="text-8xl text-slate-500 font-semibold flex">Backend</div>
-                        <div className="inline-flex align-baseline mt-20 gap-5">
+                        <div className="project-type-title text-8xl text-slate-500 font-semibold flex">Backend</div>
+                        <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E commerce */}
                             <Project projectName={"E-commerce Website"} 
                                     projectImage={"./images/e-commerce-3.webp"} 

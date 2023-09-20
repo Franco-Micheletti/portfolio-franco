@@ -1,8 +1,0 @@
-@media ( min-width:280px) and (max-width: 480px) {
-
-    .project-links{
-        flex-direction: column;
-        gap: 5px;
-        align-items: center;
-    }
-}

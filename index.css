@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media ( max-width:900px){
+
+    .projects-list{
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .projects-title{
+        font-size: 50px;
+    }
+    .project-type-title{
+        font-size: 40px;
+        margin-left:20px
+    }
+}

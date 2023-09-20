@@ -1,4 +1,5 @@
 .my-info-hidden{
+   box-shadow:rgb(100 100 100) 6px 0px 19px -3px;
    transform: translate3d(-400px,0,0);
    transition-property: transform;
    transition-duration: 200ms;
@@ -6,6 +7,7 @@
 }
 
 .my-info-visible{
+   box-shadow:rgb(100 100 100) 6px 0px 19px -3px;
    transform: translate3d(0,0,0);
    transition-property: transform;
    transition-duration: 200ms;
