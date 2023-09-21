@@ -12,6 +12,7 @@
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 4rem;
 }
 
 .project-type-frontend{
@@ -19,6 +20,7 @@
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 4rem;
 }
 
 @media ( max-width:900px){
@@ -26,7 +28,6 @@
     .projects-list{
         flex-direction: column;
         margin-top: 15px;
-        margin-bottom: 15px;
     }
     .projects-title{
         font-size: 50px;
@@ -39,5 +40,11 @@
     }
     .project-image{
         max-width: 270px;
+    }
+    .project-type-frontend{
+        padding: 1rem;
+    }
+    .project-type-backend{
+        padding: 1rem;
     }
 }
