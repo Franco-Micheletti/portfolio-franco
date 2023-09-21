@@ -7,6 +7,20 @@
     max-height: 175px;
 }
 
+.project-type-backend{
+    background-color: rgb(221, 79, 79);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.project-type-frontend{
+    background-color: rgb(83, 177, 255);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 @media ( max-width:900px){
 
     .projects-list{

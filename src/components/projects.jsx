@@ -20,11 +20,7 @@ export const Projects = () => {
             <div className="bg-white w-auto min-h-screen">
                 <div style={{backgroundColor: "rgb(211, 211, 211,0.30)"}} className="min-h-screen justify-center flex flex-col items-center">
                     <div className="projects-title text-8xl text-center text-sky-900 font-semibold p-5 mt-12 select-none">PROJECTS</div>
-                    <div style={{backgroundColor: "#53b1ff",
-                                 borderBottomLeftRadius:"50%",
-                                 borderTopRightRadius:"50%",
-                                 borderBottomRightRadius:"25%"}}
-                          className="flex flex-col mt-10 p-12">
+                    <div className="flex flex-col mt-10 p-12 project-type-frontend">
                         
                         <div className="project-type-title text-8xl text-white font-semibold flex select-none">Frontend</div>
                         <div className="projects-list inline-flex align-baseline mt-20 gap-5">
@@ -40,13 +36,14 @@ export const Projects = () => {
                                     githubUrl={"https://github.com/Franco-Micheletti/international-weather-app/tree/main/weather-app"} 
                                     websiteUrl={"https://international-weather-app.vercel.app/"}
                                    />
+                            {/* AoA APP*/}
+                            <Project projectName={"Aoe2DE Analytics"} 
+                                     projectImage={"./images/aoa.webp"} 
+                                     githubUrl={"https://github.com/Franco-Micheletti/AoE2DE-Analytics"}
+                                   />
                         </div>
                     </div>
-                    <div style={{backgroundColor: "#dd4f4f",
-                                 borderBottomLeftRadius:"50%",
-                                 borderTopRightRadius:"50%",
-                                 borderBottomRightRadius:"25%"}}
-                          className="flex flex-col mt-10 p-12 mb-20">
+                    <div className="flex flex-col mt-10 p-12 mb-20 project-type-backend">
                         <div className="project-type-title text-8xl text-white font-semibold flex select-none">Backend</div>
                         <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E-commerce Backend*/}
