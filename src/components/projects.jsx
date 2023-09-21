@@ -18,7 +18,7 @@ export const Projects = () => {
     return (
         <div className="w-full">
             <div className="bg-white w-auto min-h-screen">
-                <div style={{backgroundColor: "rgb(211, 211, 211,0.30)"}} className="min-h-screen justify-center flex flex-col items-center">
+                <div style={{backgroundColor: "rgb(211, 211, 211,0.30)"}} className="min-h-screen justify-center flex flex-col items-center p-5">
                     <div className="projects-title text-8xl text-center text-sky-900 font-semibold p-5 mt-12 select-none">PROJECTS</div>
                     <div className="flex flex-col mt-10 p-3 project-type-frontend">
                         

@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { MyInfoContext } from "../context/myInfoContext"
 
-export const MyInfoVerticalBar = () => {
+export const MyInfoButton = () => {
 
     const {showInfo,handleShowInfo} = useContext(MyInfoContext)
     return (
