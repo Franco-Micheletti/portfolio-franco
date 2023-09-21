@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.project-image{
+    max-width: 300px;
+    max-height: 175px;
+}
 
 @media ( max-width:900px){
 
@@ -18,5 +22,8 @@
     }
     .project{
         width: 270px
+    }
+    .project-image{
+        max-width: 270px;
     }
 }

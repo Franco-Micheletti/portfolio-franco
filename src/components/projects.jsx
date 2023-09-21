@@ -25,8 +25,9 @@ export const Projects = () => {
                         <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E commerce */}
                             <Project projectName={"E-commerce Website"} 
-                                    projectImage={"./images/e-commerce-3.webp"} 
-                                    githubUrl={"https://github.com/Franco-Micheletti/ecommerce-frontend"}/>
+                                    projectImage={"./images/ecommerce-main.webp"} 
+                                    githubUrl={"https://github.com/Franco-Micheletti/ecommerce-frontend"}
+                                    videoUrl={"https://drive.google.com/uc?id=1Qh4WuMbJ6H9b2D3zIV9ODM0YDdYgsaNL"}/>
                             {/* International Weather App*/}
                             <Project projectName={"International Weather App"} 
                                     projectImage={"./images/weather-main.webp"} 
@@ -39,13 +40,12 @@ export const Projects = () => {
                         <div className="projects-list inline-flex align-baseline mt-20 gap-5">
                             {/* E commerce */}
                             <Project projectName={"Vehicles API"} 
-                                    projectImage={"./images/e-commerce-3.webp"} 
-                                    githubUrl={"https://github.com/Franco-Micheletti/ecommerce-frontend"}/>
+                                    projectImage={"./images/car-api.webp"} 
+                                    githubUrl={"https://github.com/Franco-Micheletti/test-dev"}/>
                             {/* International Weather App*/}
-                            <Project projectName={"International Weather App"} 
-                                    projectImage={"./images/weather-main.webp"} 
-                                    githubUrl={"https://github.com/Franco-Micheletti/international-weather-app/tree/main/weather-app"} 
-                                    websiteUrl={"https://international-weather-app.vercel.app/"}/>
+                            <Project projectName={"Frequency table Program"} 
+                                    projectImage={"./images/frequency-table.webp"} 
+                                    githubUrl={"https://github.com/Franco-Micheletti/Generate-Frequencies-Table"}/>
                         </div>
                     </div>
                 </div>
