@@ -37,9 +37,10 @@ export const Projects = () => {
                                     websiteUrl={"https://international-weather-app.vercel.app/"}
                                    />
                             {/* AoA APP*/}
-                            <Project projectName={"Aoe2DE Analytics"} 
+                            <Project projectName={"Aoe2 DE Analytics"} 
                                      projectImage={"./images/aoa.webp"} 
-                                     githubUrl={"https://github.com/Franco-Micheletti/AoE2DE-Analytics"}
+                                     githubUrl={"https://github.com/Franco-Micheletti/AoA"}
+                                     websiteUrl={"https://aoa.vercel.app/"}
                                    />
                         </div>
                     </div>
