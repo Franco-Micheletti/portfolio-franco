@@ -35,18 +35,21 @@ export const Projects = () => {
                                     projectImage={"./images/weather-main.webp"} 
                                     githubUrl={"https://github.com/Franco-Micheletti/international-weather-app/tree/main/weather-app"} 
                                     websiteUrl={"https://international-weather-app.vercel.app/"}
+                                    technologies={"React | Tailwind | Vite.js"}
                                    />
                             {/* AoA APP*/}
                             <Project projectName={"Aoe2 DE Analytics"} 
                                      projectImage={"./images/aoa.webp"} 
                                      githubUrl={"https://github.com/Franco-Micheletti/AoA"}
                                      websiteUrl={"https://aoa.vercel.app/"}
+                                     technologies={"React | Next.js | Tailwind"}
                                    />
                             {/* AoA APP*/}
                             <Project projectName={"URL Shortener"} 
                                      projectImage={"./images/url-shortener.webp"} 
                                      githubUrl={"https://github.com/Franco-Micheletti/url-shortener-frontend"}
                                      websiteUrl={"https://myshorturls.vercel.app/"}
+                                     technologies={"React | Tailwind | Vite.js"}
                                    />
                         </div>
                     </div>
