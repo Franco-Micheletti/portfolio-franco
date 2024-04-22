@@ -42,6 +42,12 @@ export const Projects = () => {
                                      githubUrl={"https://github.com/Franco-Micheletti/AoA"}
                                      websiteUrl={"https://aoa.vercel.app/"}
                                    />
+                            {/* AoA APP*/}
+                            <Project projectName={"URL Shortener"} 
+                                     projectImage={"./images/url-shortener.webp"} 
+                                     githubUrl={"https://github.com/Franco-Micheletti/url-shortener-frontend"}
+                                     websiteUrl={"https://myshorturls.vercel.app/"}
+                                   />
                         </div>
                     </div>
                     <div className="flex flex-col mt-10 p-3 mb-20 project-type-backend">
