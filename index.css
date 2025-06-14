@@ -2,67 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-.project-image{
-    max-width: 300px;
-    max-height: 175px;
+.project-image {
+  max-width: 300px;
+  max-height: 175px;
 }
 
-.project-type-backend{
-    background-color: rgb(221, 79, 79);
-    border-radius: 20px;
-    padding: 4rem;
+.project-type-backend {
+  background-color: rgb(221, 79, 79);
+  border-radius: 20px;
+  padding: 2rem;
 }
 
-.project-type-frontend{
-    background-color: rgb(83, 177, 255);
-    border-radius: 20px;
-    padding: 4rem;
+.project-type-frontend {
+  background-color: rgb(83, 177, 255);
+  border-radius: 20px;
+  padding: 2rem;
 }
 
-@media ( max-width:1080px){
+@media (max-width:1080px) {
 
-    .projects-list{
-        flex-wrap: wrap;
-        margin-top: 15px;
-    }
-    .projects-title{
-        font-size: 50px;
-    }
-    .project-type-title{
-        font-size: 40px;
-    }
-    .project{
-        width: 270px
-    }
-    .project-image{
-        max-width: 270px;
-    }
-    .project-type-frontend, .project-type-backend{
-        padding: 1rem;
-        max-width: max-content;
-    }
+  .projects-list {
+    margin-top: 15px;
+  }
+
+  .projects-title {
+    font-size: 50px;
+  }
+
+  .project-type-title {
+    font-size: 50px;
+  }
+
+  .project {
+    width: 270px
+  }
+
+  .project-image {
+    max-width: 270px;
+  }
+
+  .project-type-frontend,
+  .project-type-backend {
+    padding: 1rem;
+    max-width: max-content;
+  }
 }
 
-@media ( max-width:1079px){
-    .project-type-frontend,.project-type-backend{
-        padding: 3rem;
-        max-width: 656px;
-    }
-    .project-type-title{
-        margin-bottom: 1rem;
-    }
+@media (max-width:1079px) {
+
+  .project-type-title {
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (max-width:698px) {
-    .projects-list{
-        flex-direction: column;
-        margin-top: 15px;
-    }
-    .project-type-frontend, .project-type-backend{
-        padding: 1rem;
-        max-width: 300px;
-    }
-    .project-type-title{
-        margin-bottom: 0;
-    }
+  .projects-list {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .project-type-frontend,
+  .project-type-backend {
+    padding: 1rem;
+    max-width: 300px;
+  }
+
+  .project-type-title {
+    margin-bottom: 0;
+  }
 }
