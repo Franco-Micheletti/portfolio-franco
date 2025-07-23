@@ -38,9 +38,9 @@ export const Projects = () => {
                   technologies={"React | Tailwind | Vite.js"}
                 />
                 {/* AoA APP*/}
-                <Project projectName={"Aoe2 Analytics"}
+                <Project projectName={"Aoe2 Analytics Website"}
                   projectImage={"./images/aoa.webp"}
-                  websiteUrl={"https://aoa.vercel.app/"}
+                  websiteUrl={"https://www.aoe2analytics.com"}
                   technologies={"React | Next.js | Tailwind"}
                 />
                 {/* URL SHORTENER*/}
